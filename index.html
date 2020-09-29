@@ -14,7 +14,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
 </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light static-top scrolling-navbar" id="navigator">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar" id="navigator">
       <a href="/" class="navbar-brand home active">
         Kamal Allouzi
       </a>
@@ -60,10 +60,10 @@
         <div class="text-center justify-content-center align-items-center">
           <h1>
             <b>Kamal Allouzi</b>
-            <br>
-            <h2>uh uh uh uh uh uh uh uh uh uh uh uh uh uh</h2>
           </h1>
-          <h2></h2>
+        </div>
+        <div class="text-center justify-content-center align-items-center">
+          <h2>uh uh uh uh uh uh uh uh uh uh uh uh uh uh</h2>
         </div>
         </div>
       </div>
@@ -124,15 +124,19 @@
     </div>
     <!-- jquery -->
     <script>
-        jQuery("#anim").fadeOut("slow");
+        $("#anim").fadeOut("slow");
     </script>
     <script>
         $(window).scroll(function(){
             $(window).on("scroll", function() {
+                    if(document.documentElement.clientWidth < 993){
+                      $("nav").addClass("static-top");
+                    }
                     if($(window).scrollTop() > 230 && document.documentElement.clientWidth > 993) {
                         $("nav").removeClass("navbar-light");
                         $("nav").addClass("bg-custom");
                         $("nav a").addClass("a-custom");
+                        $("nav").removeClass("static-top");
                     } 
                     else {
                         $("nav").removeClass("bg-custom");

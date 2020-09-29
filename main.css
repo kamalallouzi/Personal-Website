@@ -111,7 +111,7 @@
   /* end nav */
   /* start section one */
   .sectionOne {
-    background: url(img/backgroundOne.jpg) no-repeat fixed;
+    background: url(img/backgroundOne.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
     color: white;
@@ -132,14 +132,10 @@
     transform: translate(-50%, -60%);
     font-size: 40px;
   }
-  /* alignment for mobile and tablet h2  */
-  @media (max-width:  787px) {
+  /* alignment for mobile h2  */
+  @media (max-width: 992px) {
     .sectionOne h2 {
-      margin-top: 10%;
-    }
-  @media (max-width: 560px) {
-    .sectionOne h2 {
-      margin-top: 20%;
+      margin-top: 50px;
     }
   }
   /* forked from https://codepen.io/vpdemo/pen/dPdymj and modified */
