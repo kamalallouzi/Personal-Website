@@ -138,6 +138,16 @@
       margin-top: 50px;
     }
   }
+  @media screen and (max-width: 767px) {
+    .sectionOne h2 {
+      top: 55%;
+    }
+    }
+  @media screen and (max-width: 479px) {
+    .sectionOne h2 {
+      top: 60%;
+    }
+  }
   /* forked from https://codepen.io/vpdemo/pen/dPdymj and modified */
   a, a:hover {
     text-decoration: none;
