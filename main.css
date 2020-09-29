@@ -147,6 +147,10 @@
     .sectionOne h2 {
       top: 65%;
     }
+    @media screen and (max-width: 420px) {
+      .sectionOne h2 {
+      top: 70%;
+    }
   }
   /* forked from https://codepen.io/vpdemo/pen/dPdymj and modified */
   a, a:hover {
