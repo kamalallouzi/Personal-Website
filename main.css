@@ -220,3 +220,22 @@
       position: absolute !important;
     }
   }
+  /* end exp section */
+  /* start proj section */
+  .proj{
+    padding: 100px 0;
+  }
+  thead th{
+    font-size: 28px;
+  }
+  .proj table{
+    margin-top: 15px;
+  }
+  td{
+    font-size: 18px;
+    color: black;
+  }
+  .proj a, .proj a:hover{
+    color: black;
+    text-decoration: none;
+  }

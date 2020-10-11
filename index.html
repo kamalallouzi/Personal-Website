@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -8,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <link href="css/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
     <script src='main.js'></script>
     <link href="https://fonts.googleapis.com/css2?family=Karla&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
 </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar" id="navigator">
@@ -117,15 +116,31 @@
           </div>
         </div>
     </div>
-    
-    <!-- loader experimenting to learn .load in js and animation in css -->
+    <div class="proj" id="proj">
+      <div class="container">
+        <body onLoad="makeTable()">
+          <table id="github-table" class="table github-table">
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Language</th>
+              </tr>
+            </thead>
+          </table>
+        </body>
+      </div>
+    </div>
+    <!-- loader experimenting to learn in js and animation in css -->
     <div class="anim" id="anim">
         <img src="img/loading.gif">
     </div>
     <!-- jquery -->
+    <!-- fadeout for animation -->
     <script>
         $("#anim").fadeOut(1500);
     </script>
+    <!-- adding and removing for nav classes -->
     <script>
         $(window).scroll(function(){
             $(window).on("scroll", function() {
