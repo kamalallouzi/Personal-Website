@@ -1,4 +1,3 @@
-let url = 'https://api.github.com/users/kamalallouzi/repos';
 var myList;
 var link = [];
 $.getJSON('https://api.github.com/users/kamalallouzi/repos?callback', function(data) {
