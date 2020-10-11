@@ -235,7 +235,9 @@
     font-size: 18px;
     color: black;
   }
+  .proj a{
+    text-decoration: none;
+  }
   .proj a, .proj a:hover{
     color: black;
-    text-decoration: none;
   }
