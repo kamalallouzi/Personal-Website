@@ -131,16 +131,22 @@
     left: 50%;
     transform: translate(-50%, -60%);
     font-size: 40px;
+    margin-top: 2em;
   }
   /* alignment for mobile h2  */
-  @media (max-width: 992px) {
+  @media (max-width: 996px) {
     .sectionOne h2 {
-      margin-top: 50px;
+      margin-top: 2.5em!important;
     }
   }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 815px) {
     .sectionOne h2 {
-      top: 55%;
+      top: 57%;
+    }
+  }
+  @media screen and (max-width: 655px) {
+    .sectionOne h2 {
+      top: 63%;
     }
   }
   @media screen and (max-width: 479px) {
