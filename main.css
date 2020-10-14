@@ -244,8 +244,12 @@
   .proj a{
     text-decoration: none;
   }
-  .proj a, .proj a:hover{
+  .proj a, .proj a:hover, .proj h3{
     color: black;
+  }
+  .proj li{
+    font-size: 20px;
+    padding: 5px;
   }
   /* end proj section */
   /* start contact section */
