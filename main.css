@@ -111,7 +111,7 @@
   /* end nav */
   /* start section one */
   .sectionOne {
-    background: url(img/backgroundOne.jpg) no-repeat;
+    background: url(img/backgroundOne.jpg) no-repeat center;
     background-size: cover;
     height: 100vh;
     color: white;
