@@ -134,6 +134,9 @@
     font-size: 2em;
     margin-top: 2em;
   }
+  .intro{
+    font-size: 32px!important;
+  }
   /* alignment for mobile h2  */
   @media screen and (max-height: 580px) {
     h1{
@@ -217,7 +220,7 @@
     font-size: 40px !important;
   }
   .exp p{
-    font-size: 20px !important;
+    font-size: 28px !important;
   }
   h4{
     padding: 5px 0;
@@ -285,6 +288,7 @@
   footer{
     background-color: #21242c; 
     color: white;
+    padding: 15px 0;
   }
   footer h4{
     text-align: center;
