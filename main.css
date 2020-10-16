@@ -115,6 +115,7 @@
     background-size: cover;
     height: 100vh;
     color: white;
+    min-height: 400px;
   }
   
   .sectionOne h1 {
