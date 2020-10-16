@@ -252,12 +252,63 @@
     padding: 5px;
   }
   /* end proj section */
+  /* start gal section */
+  .gal{
+    background-color: #21242c;
+    padding: 2% 0;
+    color: white;
+  }
+  .carousel-wrapper{
+    margin: 0 auto;
+  }
+  /* end gal section */
   /* start contact section */
   .contact{
     padding: 2% 0;
-    background-color: #21242c;
-    color: white;
+    background-color: white;
+    color: black;
   }
   .contact label{
     font-size: 20px;
   }
+  /* end contact section */
+  /* start footer */
+  footer{
+    background-color: #21242c; 
+    color: white;
+  }
+  footer h4{
+    text-align: center;
+  }
+  footer ul{
+    text-align: center;
+  }
+  .socialfooter, .socialfooter ul, .socialfooter li {
+    padding: 0 5px;
+  }
+  .socialfooter li {
+    list-style: none outside none;
+    display: inline;
+  }
+  .socialfooter .fa {
+    width: 40px;
+    height: 40px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding-top: 12px;
+    border-radius: 22px;
+    -moz-border-radius: 22px;
+    -webkit-border-radius: 22px;
+    -o-border-radius: 22px;
+    padding: 11px 10px;
+  }
+  .socialfooter .fa:hover {
+    color: #FFF;
+    background-color: #21242c;
+    border: 1px solid #21242c;
+  }
+  .socialfooter a{
+    text-decoration: none!important;
+  }
+  /* end footer */

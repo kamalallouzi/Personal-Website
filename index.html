@@ -166,15 +166,104 @@
               Node.js
             </li>
             <li>
-              Mobile development
+              Mobile Development
+            </li>
+            <li>
+              Auto Web-based Carousel Updates by Just Adding Photo
             </li>
           </ul>
         </div>
       </div>
     </div>
+    <div class="gal" id="gal">
+      <div class="container">
+        <h3>Gallery</h3>
+        <div class="carousel-wrapper col-10 justify-content-md-center">
+          <div id="carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel" data-slide-to="1"></li>
+              <li data-target="#carousel" data-slide-to="2"></li>
+              <li data-target="#carousel" data-slide-to="3"></li>
+              <li data-target="#carousel" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a data-toggle="modal" data-target="#modal1" style="cursor: pointer;">
+                  <img src="img/carousel/1-min.jpg" style="width: 100%" class="img img-fluid center-block">
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a data-toggle="modal" data-target="#modal2" style="cursor: pointer;">
+                  <img src="img/carousel/2-min.jpg" style="width: 100%" class="img img-fluid center-block">
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a data-toggle="modal" data-target="#modal3" style="cursor: pointer;">
+                  <img src="img/carousel/3-min.jpg" style="width: 100%" class="img img-fluid center-block">
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a data-toggle="modal" data-target="#modal4" style="cursor: pointer;">
+                  <img src="img/carousel/4-min.jpg" style="width: 100%" class="img img-fluid center-block">
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a data-toggle="modal" data-target="#modal5" style="cursor: pointer;">
+                  <img src="img/carousel/5-min.jpg" style="width: 100%" class="img img-fluid center-block">
+                </a>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="modal fade" id="modal1">
+          <div class="modal-dialog  modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <img src="img/carousel/1-large.jpg" style="width: 100%">
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal2">
+          <div class="modal-dialog  modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <img src="img/carousel/2-large.jpg" style="width: 100%">
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal3">
+          <div class="modal-dialog  modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <img src="img/carousel/3-large.jpg" style="width: 100%">
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal4">
+          <div class="modal-dialog  modal-dialog-centered">
+            <div class="modal-content">
+                <img src="img/carousel/4-large.jpg" style="width: 100%">
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal5">
+          <div class="modal-dialog  modal-dialog-centered">
+            <div class="modal-content">
+                <img src="img/carousel/5-large.jpg" style="width: 100%">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="contact" id="contact">
       <div class="container">
-        <h3>Contact Me</h5>
+        <h3>Contact Me</h3>
           <form target="_blank" action="https://formspree.io/f/moqpewyl" method="POST">
             <div class="form-group">
               <label>Your name:</label>
@@ -192,10 +281,32 @@
               <label>Message</label>
               <textarea name="message" class="form-control" placeholder="Message" name="message" required></textarea>
             </div>
-            <button type="submit" class="btn btn-light">Submit</button>
+            <button type="submit" class="btn btn-dark">Submit</button>
           </form>
       </div>
     </div>
+    <footer class="page-footer font-small">
+      <div class="socialfooter">
+        <h4>Stay Connected</h4>
+        <ul>
+          <li>
+            <a href="https://github.com/kamalallouzi" target="_blank" class="fa fa-lg fa-github"></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/kamal-allouzi-0367521b7/" target="_blank" class="fa fa-lg fa-linkedin"></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/kamal.allouzi/" target="_blank" class="fa fa-lg fa-instagram"></a>
+          </li>
+          <li>
+              <a href="mailto:kallouzi@memphis.edu" target="_blank" class="fa fa-lg fa-envelope"></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-copyright text-center">
+        © 2020 Copyright: Kamal Allouzi
+      </div>
+    </footer>
     <!-- loader experimenting to learn in js and animation in css -->
     <div class="anim" id="anim">
         <img src="img/loading.gif" >
