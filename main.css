@@ -130,10 +130,18 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -60%);
-    font-size: 40px;
+    font-size: 2em;
     margin-top: 2em;
   }
   /* alignment for mobile h2  */
+  @media screen and (max-height: 580px) {
+    h1{
+      font-size: 3em!important;
+    }
+    .sectionOne h2 {
+      font-size: 1.5em;
+  }
+}
   @media (max-width: 996px) {
     .sectionOne h2 {
       margin-top: 2.5em!important;
