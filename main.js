@@ -1,4 +1,4 @@
-  var List;
+var List;
 // stores url to make into anchor
 var link = [];
 // grabs JSONP from github api
